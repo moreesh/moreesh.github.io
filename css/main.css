@@ -7,30 +7,40 @@ body {
     display: flex;
     text-align: center;
     flex-direction: column;
+    background-color: black;
 }
 
 main {
+    color: #959ead;
+    background-color: black;
     margin: auto;
     padding: 25px;
     flex: 1 0 auto;
     max-width: 750px;
 }
 
+p {
+    font-size: 15.5px;
+}
+
 /*footer*/
 
 .copyright {
     margin: 15px 0;
+    background-color: black;
 }
 
 /*home page*/
 
 .intro {
     transform: translateY(22vh);
+    background-color: black;
 }
 
 .intro > h1 {
     color: #212121;
     font-size: 12vh;
+    background-color: black;
 }
 
 .intro > h2 {
@@ -62,6 +72,7 @@ a:hover {
 
 .pages {
     padding: 15px 0;
+    background-color: black;
 }
 
 .pages-icon {
@@ -83,12 +94,14 @@ a:hover {
 .navbar-icon {
     font-size: 125%;
     display: inline-block !important;
+    background-color: black;
 }
 
 /*coloured borders at top and bottom of the page*/
 
 .navbar.navbar-default {
     border-top: var(--border-width) solid var(--accent);
+    background-color: black;        
 }
 
 footer {

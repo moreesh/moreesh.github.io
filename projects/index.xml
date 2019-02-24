@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Moreesh</title>
+    <link>https://moreesh.github.io/projects/</link>
+    <description>Recent content in Projects on Moreesh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 23 Feb 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://moreesh.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Under Construction :)</title>
+      <link>https://moreesh.github.io/projects/under_construction/</link>
+      <pubDate>Sat, 23 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://moreesh.github.io/projects/under_construction/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
