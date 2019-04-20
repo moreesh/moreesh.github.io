@@ -6,18 +6,19 @@
     <description>Recent content in Personal_developments on Moreesh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 23 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 19 Apr 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://moreesh.github.io/personal_development/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Under Construction :)</title>
-      <link>https://moreesh.github.io/personal_development/under_construction/</link>
-      <pubDate>Sat, 23 Feb 2019 00:00:00 +0000</pubDate>
+      <title>Utilizando o kanban para administrar seus projetos e trabalhos</title>
+      <link>https://moreesh.github.io/personal_development/kanban/</link>
+      <pubDate>Fri, 19 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://moreesh.github.io/personal_development/under_construction/</guid>
-      <description></description>
+      <guid>https://moreesh.github.io/personal_development/kanban/</guid>
+      <description>Projetos são elementos muito presentes e importantes para o nosso desenvolvimento, e nós os criamos ou participamos deles nas mais diferentes facetas das nossas vidas, temos projetos escolares ou de estudo, de trabalho, viagens, de relacionamentos, financeiros, a lista continua. Independentemente do tipo do projeto, sempre esperamos pelo melhor resultado possível deste, pois é algo que requer um grande investimento de recurso de tempo, financeiro e emocional.
+Há uma grande chance que você já tenha participado de um projeto ou trabalho, criado por você mesmo ou nâo, que não retornou os resultados esperados, e isso lhe causou frustração.</description>
     </item>
     
   </channel>

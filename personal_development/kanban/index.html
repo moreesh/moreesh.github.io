@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+         
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Utilizando o kanban para administrar seus projetos e trabalhos</title>
+        
+        <style>
+
+    html body {
+        font-family: 'Raleway', sans-serif;
+        background-color: black;
+    }
+
+    :root {
+        --accent: grey;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://moreesh.github.io/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-dark.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ 
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script> 
+
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.54.0" />
+        
+
+        
+        
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135021645-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments)};
+          gtag('js', new Date());
+
+          gtag('config', 'UA-135021645-1');
+        </script>
+        
+    </head>
+
+    
+    
+    <script type="text/javascript" async
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+    
+
+    <body>
+         
+        <nav class="navbar navbar-default navbar-fixed-top">
+
+            <div class="container">
+
+                <div class="navbar-header">
+
+                    <a class="navbar-brand visible-xs" href="#">Utilizando o kanban para administrar seus projetos e trabalhos</a>
+
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                </div>
+
+                <div class="collapse navbar-collapse">
+
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/">Home</a></li>
+                            
+                                <li><a href="/projects/">Projects</a></li>
+                            
+                                <li><a href="/personal_development/">Personal Development</a></li>
+                            
+                                <li><a href="/about/">About</a></li>
+                            
+                        </ul>
+                    
+
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="https://instagram.com/moreesh_"><i class="fa fa-instagram"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://soundcloud.com/moreesh/"><i class="fa fa-soundcloud"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://twitter.com/moreesh_/"><i class="fa fa-twitter"></i></a></li>
+                            
+                        </ul>
+                    
+
+                </div>
+
+            </div>
+
+        </nav>
+
+
+<main>
+
+    <div class="item">
+
+    
+    
+    
+
+    
+    
+
+    <h4><a href="/personal_development/kanban/">Utilizando o kanban para administrar seus projetos e trabalhos</a></h4>
+    <h5>April 19, 2019</h5>
+    
+
+</div>
+
+
+    <br> <div class="text-justify"><p><link rel="stylesheet" type="text/css" media="all" href="/css/kanban.css" /></p>
+
+<p>Projetos são elementos muito presentes e importantes para o nosso desenvolvimento, e nós os criamos ou participamos deles nas mais diferentes facetas das nossas vidas, temos projetos escolares ou de estudo, de trabalho, viagens, de relacionamentos, financeiros, a lista continua. Independentemente do tipo do projeto, sempre esperamos pelo melhor resultado possível deste, pois é algo que requer um grande investimento de recurso de tempo, financeiro e emocional.</p>
+
+<p>Há uma grande chance que você já tenha participado de um projeto ou trabalho, criado por você mesmo ou nâo, que não retornou os resultados esperados, e isso lhe causou frustração. Aprender a lidar com o fracasso de projetos é um processo à parte, mas a grande maioria deles falham pois não atenderam os requisitos primários necessários para o sucesso de qualquer projeto: planejamento, gerenciamento e estabelecimento de metas, que basicamente representam o que será feito, como será feito e porque está sendo feito, respectivamente. Neste post o foco será dado para o elemento administrativo de um projeto, ou seja, como será feito.</p>
+
+<h1> Administrando Seus Projetos </h1>
+<br />
+
+Todos os três elementos citados requerem muita atenção, porém o gerenciamento merece uma atenção especial, pois é a parte a qual determinamos e executamos as ações e medidas necessárias para atingirmos as metas, e isso é o que consome a maior parte do nosso tempo dedicado para concluir o projeto.
+<br/>
+<br/>
+À medida que um projeto começa a ficar mais complexo, fica cada vez mais difícil determinar os próximos passos a serem seguidos, e é importante saber que tentar fazer isso mentalmente é uma receita para o desastre. Geralmente quando tentamos administrar tudo mentalmente não somos capazes de enxergar todos os pontos necessários para atinjir certa meta, qual a ordem dos passos a serem seguidos, dependências que determinados afazeres podem possuir. Esses pontos são o que eu chamo de tarefas, cujo conjunto forma uma solução para atinjir um certo objetivo, estabelecido pelas metas.
+
+Para a maior eficiência possível, uma tarefa deve ser o menor possível, de tal modo que você não demore muito tempo para concluí-la. Tarefas pequenas possuem algumas vantagens, tais como: 
+<br/>
+<br/>
+
+<div>
+  <div>
+    <p class="numbered-paragraph">
+        1. Você não se sente tão desencorajado a fazê-la
+    </p>
+    <p class="numbered-paragraph">
+        2. Elas sâo mais fáceis de serem administradas, como temos uma série de coisas mundanas para se fazer, isso se torna necessário, pois você precisa encaixar um tempo na sua rotina para fazer as atividades dos seus projetos em conjunto com outras obrigações. Se houver um período que o seu tempo está curto, isso aumenta as suas chances também de concluir uma tarefa para o tempo estabelecido, poupando frustração. 
+    </p>
+    <p class="numbered-paragraph">
+        3. O seu progresso fica muito mais visível. Ao concluir uma tarefa, ganhamos a noção de que estamos tendo progressio e isso nos faz sentir motivados a continuar e realizados. Tarefas pequenas nos garantem que esse sentimento seja algo constante durante o nosso progresso, criando um feedback de reforço positivo para você.
+    </p> 
+  </div>
+<div>
+<br />
+Compreender a importância de dividir seus projetos em pequenas tarefas, e reconhecer a ineficiência da mente de organizar e administrar essas tarefas é um bom primeiro passo. A próxima coisa a ser feita então, é determinar como iremos organizar essas tarefas, para que possamos executá-las com foco e eficiência. O método que irei descrever aqui é o kanban.
+
+<h1> Um Pouco Sobre o Kanban </h1>
+
+<p>O Kanban foi criado por <a href="https://en.wikipedia.org/wiki/Taiichi_Ohno">Taiichi Ohno</a> no final dos anos 40 com a finalidade de ser um sistema eficiente de gerenciamento para manufatura e manufatura <em>just-in-time</em>. O nome do método significa <em>signboard</em> em inglês e a tradução mais apropriada, dado o nosso contexto, seria quadro, que remete às cartas que são os elementos principais do sistema.</p>
+
+<p>Os trabalhadores de linha da Toyota (companhia na qual Ohno trabalhava), utilizavam as cartas para representar passos no processo de manufatura deles. A natureza altamente visual do sistema permitiu que as equipes conseguissem se comunicar com mais eficiência sobre o que precisava ser feito e quando.</p>
+
+<p>O sistema se tornou tão poular que passou a ser usado em diversas outras áreas além da manufatura. O que eu gosto do kanban é que ele é simples o suficiente para ser utilizado em qualquer tipo de projeto que vocẽ imaginar.</p>
+
+<h1> Como Utilizar o Kanban </h1>
+
+<p>Conforme vimos, as <strong>cartas</strong> são os elementos principais do sistema, que representam passos a serem tomados para atinjir um certo resultado, ou seja, são as nossas tarefas. Mas ainda assim falta um elemento chave: como organizar essas cartas, para isso, utilizamos <strong>listas</strong>, o segundo elemento principal do kanban, as listas determinam o fluxo de trabalho do projeto, isto são as etapas as quais uma certa atividade passa desde a sua criação até sua conclusão.</p>
+
+<figure>
+  <img src="/images/kanban/kanban_example.png" alt="exemplo de um kanban" style="display:block;margin-left:auto;margin-right:auto;">
+  <figcaption class="figure-caption">Um exemplo de kanban com o fluxo de trabalho tradicional</figcaption>
+</figure>
+
+<p>A figura nos mostra um exemplo de um kanban construído para um projeto de escrever um artigo, nela podemos ver diversar cartas que representam nossas atividades e também as listas, que estão formando o fluxo de trabalho mais tradicional utilizando no kanban, composto por três etapas:</p>
+
+<ul>
+<li><p><strong>backlog:</strong> o <em>backlog</em> contém todas as atividades que ainda não foram feitas e também não estão sendo feitas. Ao iniciar um projeto vocẽ não precisa saber antecipadamente quais serão todas as atividades que vão compor o seu projeto, comece escrevendo algumas e comece a trabalhar nelas que naturalmente outras necessidades vão ficar evidentes e poderão ser adicionadas gradualmente.</p></li>
+
+<li><p><strong>em progresso:</strong> nessa lista estão contidas as atividades que estão sendo feitas no momento, essa lista é muito importante pois faz com que você direcione todo o seu foco no que realmente deve ser feito agora e esquecer o restante das atividades que estão no backlog, além disso ela é boa para identificar atividades que estão demorando muito tempo para serem realizadas e causando um gargalo no desempenho. Opcionalmente você pode estabelecer um limite de cartas que podem ficar nessa lista para que você não se sinta sobrecarregado.</p></li>
+
+<li><p><strong>feito:</strong> após uma atividade ter sido concluída ela vai para essa lista, o objetivo de se ter uma lista de atividades feitas é poder enxergar o progresso e acompanhar a evolução do seu projeto.</p></li>
+</ul>
+
+<p><br/>
+Você pode utilizar a ferramenta que mais lhe for conveniente para fazer suas cartas e listas, até mesmo a sua parede com sticky notes. A minha ferrramenta de escolha é o <a href="https://trello.com">Trello</a>, o que torna o trello interessante para mim é que você pode por tags nas suas cartas, representadas na imagem como cores logo acima das descrições das cartas. As tags podem ser usadas, por exemplo, para categorizar as cartas por prioridade, como é o caso do exemplo acima. Outra funcionalidade é colocar prazos de entrega, você pode filtrar as cartas tanto por tags quanto por prazo de entrega, permitindo um foco maior do que é mais importante ou o que está mais próximo do prazo de entrega.</p>
+
+<h1> Resumo </h1>
+
+<p>Para concluir, vamos resumir os conceitos que vimos nesse post sobre projetos e o sistema kanban:</p>
+
+<ul>
+<li><p>Nós participamos de muitos projetos ao longo de nossas vidas</p></li>
+
+<li><p>Para um projeto ser bem sucedido, ele requer planejamento, um método eficiente de gerenciamento e estabelecimento de metas</p></li>
+
+<li><p>O gerenciamento de um projeto é o que toma a maior parte do nosso tempo para concluí-lo</p></li>
+
+<li><p>Tentar organizar um projeto mentalmente é ineficiente e nos causa desgaste</p></li>
+
+<li><p>Para facilitar o gerenciamento do projeto dividimo-os em pequenas atividades e determinamos uma ordem para concluí-las.</p></li>
+
+<li><p>O kanban é um sistema simples porém eficaz de se administrar projetos de qualquer natureza. Ele é composto por cartas, que representam as atividades do projetos, e listas, que representam etapas no fluxo de trabalho pelo qual as cartas passam.</p></li>
+
+<li><p>O fluxo de trabalho mais simples contém três etapas: a primeira contém as atividades que estão para serem feitas, a segunda contém as atividades que estão sendo feitas e a terceira contém atividades que já foram feitas.</p></li>
+</ul>
+
+<p>Apesar de ser um sistema extremamente simples de ser empregado, não subestime a eficácia do kanban, pois este lhe proporciona uma boa visualização do estado do seu projeto de maneira simples e rápida, poupando muito do nosso esforço mental de ter que ficar relembrando as mesmas coisas o tempo todo, sem contar da possibilidade de esquecer algum ponto crucial para a conclusão bem sucedida do projeto.</p>
+
+<p>Na próxima vez que vocẽ for tomar esforços para realizar um projeto, lembre-se: você pode não utilizar o kanban para gerenciá-lo, porém dividir e anotar o que precisa ser feito te dá uma noção de realismo e aumenta a sua motivação a fazer o que deve ser feito. Que o conhecimento compartilhado aqui possa lhe ajudar a gerenciar melhor os seus projetos e atinjir os seus objetivos!</p>
+</div>
+
+    
+    
+
+    
+
+    
+
+</main>
+
+        <footer>
+
+            <p class="copyright text-muted">&copy; All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a></p>
+
+        </footer>
+       
+    </body>
+
+</html>
+
